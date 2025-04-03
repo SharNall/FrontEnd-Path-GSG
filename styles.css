@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #1E3A8A; 
+    color: #F8FAFC; 
+    margin: 0;
+    padding: 20px;
+}
+
+/* Home Page */
+.home-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    backdrop-filter: blur(10px);
+}
+
+.home-container h1 {
+    color: #FACC15; 
+    font-size: 2rem;
+}
+
+.home-container button {
+    font-size: 20px;
+    padding: 12px 24px;
+    background: #FACC15; 
+    color: #1E3A8A; 
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.home-container button:hover {
+    background: #FFD700;
+    transform: scale(1.1);
+}
+
+/* Game Page */
+.game-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    backdrop-filter: blur(10px);
+}
+
+.buttons button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+    color: white;
+}
+
+.buttons button:nth-child(1) { background: #FF5733; } /* Red for Rock */
+.buttons button:nth-child(2) { background: #4CAF50; } /* Green for Paper */
+.buttons button:nth-child(3) { background: #2196F3; } /* Blue for Scissors */
+
+.buttons button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.results, .scoreboard {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #FF0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.reset-btn:hover {
+    background: #D32F2F;
+    transform: scale(1.1);
+}
+
+.home-btn {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px 15px;
+    background: #FACC15;
+    color: #1E3A8A;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background: #FFD700;
+    transform: scale(1.1);
+}
