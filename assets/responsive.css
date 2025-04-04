@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .buttons, .scoreboard, .results {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    /* Prevent buttons from shrinking */
+    .buttons button, .reset-btn, .home-btn {
+        width: 120px;
+        height: 50px;
+    }
+}
