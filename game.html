@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors - Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/responsive.css">
 </head>
 <body>
+    <img src="assets/background.png" alt="Background" class="bg-img">
+
     <div class="game-container">
         <h1>Rock Paper Scissors</h1>
         <div class="buttons">
-            <button onclick="playGame('rock')">🪨 Rock</button>
-            <button onclick="playGame('paper')">📄 Paper</button>
-            <button onclick="playGame('scissors')">✂️ Scissors</button>
+            <button onclick="playGame('rock')">Rock</button>
+            <button onclick="playGame('scissors')">Scissors</button>
+            <button onclick="playGame('paper')">Paper</button>
         </div>
         <div class="results">
             <p id="user-choice">Your Choice: -</p>
@@ -26,6 +29,6 @@
         <button onclick="resetGame()" class="reset-btn">Reset</button>
         <button onclick="goHome()" class="home-btn">🏠 Home</button>
     </div>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
