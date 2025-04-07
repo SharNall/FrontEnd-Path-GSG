@@ -17,12 +17,6 @@ A simple and interactive **Rock Paper Scissors** game where the player competes 
 - **CSS** – Styling & Animations  
 - **JavaScript** – Game Logic  
 
-## 📸 Screenshots 
-![image](https://github.com/user-attachments/assets/5595aa07-8ea0-45cc-9e2f-0c7eb3138451)
-
-![image](https://github.com/user-attachments/assets/c58e18d6-778c-436f-8561-3f59b196df37)
-
-
 
 ## 🎲 How to Play  
 1️⃣ Click **Start Game** on the home page.  
@@ -32,7 +26,7 @@ A simple and interactive **Rock Paper Scissors** game where the player competes 
 5️⃣ Track your score and reset the game anytime.  
 
 ## 🌍 Live Demo  
-🔗 *[Your GitHub Pages Link Here](#)*  
+🔗 *[https://github.com/SharNall/FrontEnd-Path-GSG](#)*  
 
 ## 🛠️ Installation & Usage  
 1. Clone the repo:  
