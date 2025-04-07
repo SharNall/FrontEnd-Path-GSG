@@ -26,7 +26,7 @@ A simple and interactive **Rock Paper Scissors** game where the player competes 
 5️⃣ Track your score and reset the game anytime.  
 
 ## 🌍 Live Demo  
-🔗 *[https://github.com/SharNall/FrontEnd-Path-GSG](#)*  
+🔗 *[https://sharnall.github.io/FrontEnd-Path-GSG/](#)*  
 
 ## 🛠️ Installation & Usage  
 1. Clone the repo:  
